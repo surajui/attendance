@@ -1,0 +1,54 @@
+<div class="container-fluid m-0 p-0">
+    <div class="row m-0">
+        <div class="col-11 p-0" >
+          <div [ngClass]="['div1','sticky-top']" >
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark " data-toggle="sticky-onscroll"  >
+                <ul class="navbar-nav py-2">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Active</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                  
+                  </li>
+                  <li class="nav-item" >
+                    <a href="#" data-target="#sidebar" data-toggle="collapse" style=color:white;><i class="fa fa-navicon  py-3 px-2 "></i></a>
+                  </li>
+                </ul>
+              </nav>
+              </div>
+        </div>
+        <div class="col-sm-1 bg-dark pt-4">
+                <li class="nav-item">
+            <a class="text-white" href="#"><i class="fa fa-sign-out">Sign Out</i></a>
+            </li>
+        </div>
+    </div>
+    <div class="row m-0">
+        <div class="col p-0">
+            <div class="container-fluid">
+                <div class="row d-flex d-md-block flex-nowrap wrapper ">
+                    <div class="col-md-2 float-left col-1 pl-0 pr-0 collapse width" id="sidebar">
+                        <div class="list-group border-0 card text-center text-md-left">
+                                <!-- <a roterLink="home" class="list-group-item  d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-home">Home</i> </a> -->
+
+                                <a routerLink="home" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-home"><span class="d-none d-md-inline">Home</span></i> </a>
+                            <a routerLink="manageuser"  class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-users"></i> <span class="d-none d-md-inline">Manage User</span></a>
+                            <a routerLink="manageleave" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-calendar-minus-o"></i><span class="d-none d-md-inline">Manage Leaves</span></a>
+                           
+                            <a routerLink="applyleave" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-calendar"></i> <span class="d-none d-md-inline">Apply Leave</span></a>
+                            <!-- <a routerLink="myleave" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-calendar"></i> <span class="d-none d-md-inline">My Leave</span></a> -->
+                            <a routerLink="chaneps" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-key"></i> <span class="d-none d-md-inline">Change Password</span></a>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-10 float-left px-5 pl-5 pt-5 main">
+                        <router-outlet>
+
+                        </router-outlet>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>

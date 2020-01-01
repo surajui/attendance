@@ -1,0 +1,34 @@
+{
+  "manage": [
+    {
+      "id": 1,
+      "name": "suraj sableds",
+      "date": "2019-09-17",
+      "todate": "2019-09-19",
+      "nodays": "02",
+      "leave": "Lop",
+      "reason": "fdsgsd",
+      "manage": "sachin123"
+    },
+    {
+      "name": "ravi",
+      "nodays": "01",
+      "date": "2019-09-12",
+      "todate": "2019-09-13",
+      "leave": "Sick",
+      "reason": "sdfas",
+      "manage": "sunil123",
+      "id": 2
+    },
+    {
+      "name": "neelima",
+      "nodays": "02",
+      "date": "2019-09-16",
+      "todate": "2019-09-18",
+      "leave": "Lop",
+      "reason": "sdfas",
+      "manage": "radhika123",
+      "id": 3
+    }
+  ]
+}

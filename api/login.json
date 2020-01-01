@@ -1,0 +1,16 @@
+{
+    "mlogin":[
+      {
+          "user":"sachin123",
+          "password":"sachin123"
+      },
+      {
+        "user":"sunil123",
+        "password":"sunil123"
+    },
+    {
+        "user":"radhika123",
+        "password":"radhika123"
+    }
+    ]
+}

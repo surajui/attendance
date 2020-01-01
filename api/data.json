@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "email": "suraj@gmail.com",
+      "firstn": "suraj",
+      "role": "uidevelopers"
+    },
+    {
+      "id": 2,
+      "email": "sable@gmail.com",
+      "firstn": "sable",
+      "role": "uidevelopers"
+    },
+    {
+      "id": 3,
+      "email": "neelima@gmail.com",
+      "firstn": "Neelima gada",
+      "role": "uidevelopersrweg"
+    }
+  ]
+}
